@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://windmillhelix.github.io/P99CompanionApp/ClickOnce/WindmillHelix.Companion99.App.application" />
+    <deploymentProvider codebase="https://windmillhelix.github.io/P99Companion/ClickOnce/WindmillHelix.Companion99.App.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
