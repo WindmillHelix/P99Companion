@@ -1,1 +1,1 @@
-# P99CompanionSite
+# Website for the P99 Companion application
