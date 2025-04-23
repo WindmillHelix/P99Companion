@@ -1,0 +1,3 @@
+*.deploy binary
+*.manifest binary
+*.application binary
