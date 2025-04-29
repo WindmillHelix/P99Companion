@@ -220,7 +220,9 @@
                                     <h3 class="accordion-header" id="headingParkInfoOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParkInfoOne" aria-expanded="true" aria-controls="collapseParkInfoOne">Overview</button></h3>
                                     <div class="accordion-collapse show show" id="collapseParkInfoOne" aria-labelledby="headingParkInfoOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            
+                                            The Park Info tab allows a quick and easy way to see where you left characters or who you have
+                                            in a particular zone.  This information is collected passively as you play characters and
+                                            instantly searchable.
                                         </div>
                                     </div>
                                 </div>
@@ -228,23 +230,47 @@
                                     <h3 class="accordion-header" id="headingParkInfoTwo"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParkInfoTwo" aria-expanded="true" aria-controls="collapseParkInfoTwo">Tracked Data</button></h3>
                                     <div class="accordion-collapse show" id="collapseParkInfoTwo" aria-labelledby="headingParkInfoTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-
+                                            The data points tracked for each character are as follows:<br />
+                                            <br />
+                                            <ul>
+                                                <li><b>Server Name</b></li>
+                                                <li><b>Character Name</b></li>
+                                                <li><b>Zone</b> - the last zone in which the character was played</li>
+                                                <li><b>Account</b> - the username of the account to which the character belongs</li>
+                                                <li><b>Bind</b> - the bind location for the character, detected by the act of being bound or by the <span class="text-monospace">/charinfo</span> command</li>
+                                                <li><b>Sky Corpse Timer</b> - the time since the character's last death while in the Plane of Sky, will end at 7 days (when any corpse will have rotted)</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingParkInfoThree"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParkInfoThree" aria-expanded="true" aria-controls="collapseParkInfoThree">Ignore</button></h3>
+                                    <h3 class="accordion-header" id="headingParkInfoThree"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParkInfoThree" aria-expanded="true" aria-controls="collapseParkInfoThree">Filters</button></h3>
                                     <div class="accordion-collapse show" id="collapseParkInfoThree" aria-labelledby="headingParkInfoThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-              
+                                            The Search box filters the character list to those whose name, zone, account, or bind point
+                                            include the searched text.  For example, to see characters that are currently in or bound in Kael:<br/>
+                                            <br/>
+                                            <img src="images/features/parkInfo-searched.png" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingParkInfoFour"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParkInfoFour" aria-expanded="true" aria-controls="collapseParkInfoFour">Filters</button></h3>
+                                    <h3 class="accordion-header" id="headingParkInfoFour"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParkInfoFour" aria-expanded="true" aria-controls="collapseParkInfoFour">Ignore / Delete</button></h3>
                                     <div class="accordion-collapse show" id="collapseParkInfoFour" aria-labelledby="headingParkInfoFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-              
+                                            If you play characters that are not your own on a frequent basis, it can become burdensome to have them
+                                            also included on your Park Info tab.  Right clicking on an item will allow you to Ingore or Delete an
+                                            entry.  If it is deleted, it will come back the next time you play that character.  If it is ignored,
+                                            it will not be shown unless the Include Ignored button is checked even through repeated usage.<br />
+                                            <br />
+                                            Ignoring &quot;Gollu&quot;:<br />
+                                            <img src="images/features/parkInfo-popup.png" /><br />
+                                            <br />
+                                            Gollu no longer appears on the list:<br />
+                                            <img src="images/features/parkInfo-withoutIgnored.png" /><br/>
+                                            <br />
+                                            Checking &quot;Include Ignored&quot; will display Gollu again, who can now be unignored with a right click:<br />
+                                            <img src="images/features/parkInfo-withIgnored.png" />
                                         </div>
                                     </div>
                                 </div>	

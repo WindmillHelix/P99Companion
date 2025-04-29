@@ -1,0 +1,52 @@
+
+
+Who Results Display
+	Filters
+	Actions
+	Encounter Logs
+	
+General Utilities
+	Overview
+	Last Location
+	Group Leader Tracking
+	Last Roll
+	Stopwatch
+	
+Roll Tracking
+	
+	
+Inventory Search
+	Filters
+	Keys
+	
+Spellbook Search
+	Filters
+	
+Notes
+	Overview
+	
+Park Info
+	Overview
+	Tracked Data
+	Filters
+	Ignore
+	
+Socials
+	Rearrange
+	
+Discord Integration
+	Overview
+	Accounts
+	Log2Discord
+	Discord2Log
+	
+Discord Overlay
+	Overview
+	
+External Application Integration
+	Middleman
+	GINA
+	
+Maps (WIP)
+	Overview
+	Configuration

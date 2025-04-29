@@ -10850,3 +10850,7 @@ html {
 .navbar-dark {
 	background-image: url("/P99Companion/images/lightrock.png") !important;
 }
+
+.text-monospace {
+    font-family: monospace;
+}
